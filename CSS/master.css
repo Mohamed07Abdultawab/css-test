@@ -1,0 +1,26 @@
+.one{
+    border-bottom: 1px solid red;
+    color: red;
+}
+.two{
+    border-bottom: 1px solid green;
+    color: green;
+}
+.three{
+    border-bottom: 1px solid blue;
+    color: blue;
+}
+.four{
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+.one,
+.tow,
+.three,
+.four,
+.my-p{
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #EEE;
+}
