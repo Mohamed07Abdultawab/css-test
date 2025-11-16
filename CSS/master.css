@@ -53,3 +53,18 @@ div{
     width: fit-content;
     height: fit-content;
 } */
+
+/* 16 Overflow X and Y */
+div{
+    width: 150px;
+    height: 150px;
+    background-color: #eee;
+    margin: 20px auto;
+    border-radius: 6px;
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow: auto; */
+    overflow-y: hidden;
+    /* overflow-x: hidden; */
+}
