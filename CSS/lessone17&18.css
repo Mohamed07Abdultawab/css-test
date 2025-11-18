@@ -1,0 +1,14 @@
+/*text shadow
+syntax => text-shdow: H-Shadow V-Shadow Blur-Color*/
+
+/*align
+text-align: lift , right , center*/
+
+
+
+div{
+    background-color: #eee;
+    text-shadow: 1px 1px 1px red;
+    /* text-align: right; */
+    direction: ltr;
+} 
