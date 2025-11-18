@@ -1,0 +1,33 @@
+
+.decoration{
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    border-radius: 4px;
+}
+.transformation{
+    text-transform: capitalize;
+    text-transform: uppercase;
+}
+.spacing{
+    letter-spacing: 20px;
+}
+.indent{
+    text-indent: 100px;
+}
+.line-height{
+    line-height: 3;
+    width: 400px;
+}
+.white-space{
+    width: 300px;
+    background-color: rgb(150, 144, 138);
+    white-space: nowrap;
+}
+.word-break{
+    background-color: rgb(122, 119, 116);
+    width: 300px;
+    word-break: break-all;
+}
