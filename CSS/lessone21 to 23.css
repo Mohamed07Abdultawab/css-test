@@ -1,0 +1,30 @@
+.text-overflow{
+    width: 300px;
+    background-color: #838383;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.text-overflow:hover{
+    overflow: visible;
+    white-space: normal;
+}
+
+.parent{
+    text-align: center;
+    padding: 20px;
+    background-color: #d3d3d3;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid blue;
+}
+
+.parent .child{
+    font-size: 20px;
+    border: inherit ;
+    padding: inherit;
+}
+
+.typography{
+    font-family: "Cairo", sans-serif;
+}
