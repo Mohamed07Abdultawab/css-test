@@ -1,0 +1,103 @@
+/*
+css units
+-px
+-em => time 1em = parent font size
+-rem => root em => time 1rem = default font size = 16px
+-percentage => time 100% = parent font size
+-vw view port width
+-vh
+
+read 
+-vmin
+-vh
+
+*/
+body{
+    font-size: 20px;
+}
+
+.em{
+    font-size: 2em;
+}
+.rem{
+    font-size: 2rem;
+}
+.percentage{
+    font-size: 200%;
+}
+.vw{
+    font-size: 5vw;
+}
+
+
+
+
+.style{
+    font-style: italic;
+}
+.variant{
+    font-variant: small-caps;
+}
+.weight{
+    font-weight: bold;
+}
+
+
+
+
+
+button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+    font-size: large;
+}
+span{
+    cursor: grab;
+}
+p{
+    cursor: progress;
+}
+a{
+    cursor: none;
+}
+
+
+
+
+
+.parent{
+    background-color: red;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.parent div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: yellow;
+    width: 25%;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+
+
+
+.parent1 div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: yellow;
+    float: left;
+    width: calc((100% - 120px) / 5);
+    margin: 10px;
+
+    /*
+    [100% - (n spaces * margin size * 2)px ]/ n boxes
+    */
+}
